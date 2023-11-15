@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallActivity"
+    android:background="#2196F3">
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold"/>-->
+
+   <RelativeLayout
+       android:layout_marginTop="100dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/call"
+       >
+
+       <ImageView
+           android:id="@+id/images"
+           android:layout_width="100dp"
+           android:layout_height="150dp"
+           android:layout_marginLeft="130dp"
+           android:layout_marginTop="60dp"
+           android:src="@drawable/sendingcall"
+           />
+
+
+
+       <TextView
+           android:id="@+id/mobile"
+           android:layout_below="@id/images"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="30sp"
+           android:layout_marginTop="50dp"
+           android:layout_marginEnd="30dp"
+           android:gravity="center"
+           android:text="Enter Mobile Number"
+           android:textColor="@color/black"
+           android:textSize="14sp" />
+
+       <LinearLayout
+           android:id="@+id/call"
+           android:layout_below="@id/mobile"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60sp"
+           android:layout_marginEnd="60dp"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <TextView
+               android:id="@+id/nine"
+               android:layout_width="wrap_content"
+               android:layout_height="40dp"
+               android:gravity="center"
+               android:text="+91-"
+               android:textColor="@color/black"
+               android:textSize="16sp"
+               android:textStyle="bold"/>
+           <EditText
+               android:id="@+id/phone"
+               android:layout_width="wrap_content"
+               android:layout_height="40dp"
+               android:background="@null"
+               android:maxLength="10"
+               android:hint="@string/_1234567890"
+               android:imeOptions="actionDone"
+               android:importantForAccessibility="no"
+               android:inputType="number"
+               android:textStyle="bold"
+               android:textSize="16dp"
+               android:textColor="@color/black"
+               />
+
+       </LinearLayout>
+
+       <View
+           android:layout_below="@id/call"
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:layout_marginStart="50sp"
+           android:layout_marginTop="8dp"
+           android:layout_marginEnd="50dp"
+           android:background="@color/black"/>
+
+       <Button
+           android:id="@+id/CallBut"
+           android:layout_below="@id/call"
+           android:layout_width="170dp"
+           android:layout_height="40dp"
+           android:onClick="callfun"
+           android:layout_marginLeft="100dp"
+           android:layout_marginTop="50dp"
+           android:backgroundTint="#1BF10C"
+           android:text="Call"
+           android:textColor="@color/white"
+           android:textSize="14sp"
+           android:textStyle="bold"/>
+
+
+
+   </RelativeLayout>
+
+
+
+</RelativeLayout>

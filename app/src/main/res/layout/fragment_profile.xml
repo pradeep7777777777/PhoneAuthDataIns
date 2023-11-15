@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    tools:context=".ProfileFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="430dp"
+            android:background="#299BFF">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/im"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/img_9"
+                android:layout_marginTop="40dp"
+                />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/im"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@drawable/account"
+            android:layout_marginTop="280dp">
+
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview"
+            android:layout_width="300dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="215dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="GMAIL :-"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="225dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="75dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="AGE :-"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="100dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="245dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="55dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="CITY :-"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="150dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="240dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="60dp"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <RelativeLayout
+            android:id="@+id/te"
+            android:layout_below="@id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/fragmint_sap"
+            android:layout_marginTop="50dp">
+
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_2"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="60dp"
+                />
+
+            <ImageView
+                android:id="@+id/tweetr"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_4"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="155dp"
+                />
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:src="@drawable/img_5"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="250dp"
+                />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "239553141789",
+    "project_id": "phoneauthdatai-82aef",
+    "storage_bucket": "phoneauthdatai-82aef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239553141789:android:4c6296ed6545c4249b7af4",
+        "android_client_info": {
+          "package_name": "com.pradeep.phoneauthdatains"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUlCvhvSYyUtSZBHYzNd362hBAeYf06Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

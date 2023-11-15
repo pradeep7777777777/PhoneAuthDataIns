@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Help"
+        android:title="@string/help_amp_support"
+        />
+
+    <item
+        android:id="@+id/Email"
+        android:title="@string/email"/>
+    <item
+        android:id="@+id/Call"
+        android:title="@string/call"/>
+    <item
+        android:id="@+id/logout1"
+        android:title="@string/logout"/>
+    <item
+        android:id="@+id/Delete"
+        android:title="@string/delete"/>
+    <item
+        android:id="@+id/Account"
+        android:title="@string/account"/>
+
+    <item
+        android:id="@+id/Product"
+        android:title="Product"/>
+
+
+</menu>
